@@ -1,0 +1,20 @@
+@media (min-width: 576px){
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+}
+
+body {
+    font-family: calibri;
+}
+
+
+section {
+    padding-top: 5rem;
+}
+
+
+#fotoperusahaan {
+    background-color: #e2edff;  
+}
