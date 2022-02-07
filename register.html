@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html style="height:auto">
+<head>
+    <title>Form Register</title>
+    <link rel="stylesheet" type="text/css" href="registerstyle.css">
+</head>
+<body>
+    <div class="wrap">
+    <div class="container">
+    <h1>Form Register</h1>
+    <form action=""method="">
+        <table>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td><input type="text" name="nama_lengkap"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea name="alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td>Tempat Lahir</td>
+                <td>:</td>
+                <td><input type="text" name="tempat_lahir"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td><input type="date" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jk" value="Laki-Laki">Laki-Laki
+                    <input type="radio" name="jk" value="Perempuan">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>No Handphone</td>
+                <td>:</td>
+                <td><input type="number" name="no_telepon"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>Posisi yang dilamar</td>
+                <td>:</td>
+                <td>
+                    <select name="posisi_dilamar">
+                        <option>--Pilih posisi yang akan dilamar--</option>
+                        <option>Technical Support</option>
+                        <option>Administrasi Support</option>
+                        <option>Programmer</option>
+                        <option>Security</option>
+                        <option>Office Boy/Girl</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="submit" name="kirim">KIRIM</button>
+                    <button type="batal" name="reset">BATAL</button>
+                </td>
+        </table>
+    </form>
+</div>
+</div>
+</body>
+</html>
