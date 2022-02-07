@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h3 id="name">Welcome</h3> -->
+    <!-- <h1></h1> -->
+
+    <h1 onclick="changeTextElement(this)">Un Clicked</h1>
+
+    <script>
+        // console.log(document.getElementsByTagName("h3"));
+        // document.getElementById("name").innerHTML = "Pratama";
+        // document.getElementsByTagName("h3")[1].innerHTML = "Fiqri";
+        document.getElementById("name").onmouseout = () => {
+            alert("CLICKED");
+        }
+
+        // let p = document.createElement("p");
+        // p.innerHTML = "Pratamaaaa";
+        // document.body.appendChild(p);
+
+        function changeTextElement(element){
+            element.innerHTML = "CLICKED";
+        }
+    </script>
+</body>
+</html>

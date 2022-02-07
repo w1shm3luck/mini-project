@@ -1,0 +1,16 @@
+html,
+body {
+  font-size: 14px;
+}
+.wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+.wrapper svg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.uk-card {
+  border-radius: 8px;
+}
