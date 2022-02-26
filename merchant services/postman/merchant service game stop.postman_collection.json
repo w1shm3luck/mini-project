@@ -1,0 +1,25 @@
+{
+	"info": {
+		"_postman_id": "67fe4878-1289-496a-a3de-215c2c9c18b3",
+		"name": "merchant service game stop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

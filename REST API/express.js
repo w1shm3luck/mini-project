@@ -4,11 +4,11 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-    res.send('<b>Hello World!</b>')
+    res.send('<b>PET SWAGGER!</b>')
 })
 
-app.get('/products', (req, res) => {
-    const list = {"category":[{"id":1,"name":"Makanan"},{"id":2,"name":"Minuman"},{"id":3,"name":"Snack"}]};
+app.get('/pet', (req, res) => {
+    const list = {"category":[{"id":1,"name":"doggie"},{"id":2,"name":"Catty"},{"id":3,"name":"Birdie"}]};
     res.send(list)
 })
 
