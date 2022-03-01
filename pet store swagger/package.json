@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "moments": "^0.0.2",
+    "mysql": "^2.18.1",
+    "validator": "^13.7.0",
+    "validatorjs": "^3.22.1"
+  }
+}
